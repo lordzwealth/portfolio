@@ -87,7 +87,7 @@
 
         .portrait {
             width: 250px;
-            height: 260px;
+            height: 250px;
             background: url(../img/portrait_01.jpg);
             border-radius: 50%;
             border: solid 5px $secondary-color;
@@ -111,10 +111,10 @@
     .nav-link {
         display: inline-block;
         position: relative;
-        font-size: 35px;
+        font-size: 30px;
         text-transform: uppercase;
         padding: 1rem 0;
-        font-weight: 350;
+        font-weight: 300;
         color: #fff;
         text-decoration: none;
         @include easeOut;
