@@ -11,7 +11,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: white;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -114,8 +114,8 @@
         font-size: 30px;
         text-transform: uppercase;
         padding: 1rem 0;
-        font-weight: 300;
-        color: #fff;
+        font-weight: 350;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
