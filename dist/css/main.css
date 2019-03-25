@@ -57,7 +57,7 @@
       height: 250px;
       background: url(../img/portrait_01.jpg);
       border-radius: 50%;
-      border: solid 5px #109ddf; }
+      border: solid 3px #109ddf; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -98,7 +98,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background_01.jpg);
@@ -148,10 +148,10 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #109ddf;
-        transition: all 0.5s ease-out; }
+        color: #109ddf; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -160,13 +160,13 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #109ddf 5px solid; }
+    border: #109ddf 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -187,7 +187,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 4px solid #fff; }
+    border: 4px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #109ddf;
@@ -219,7 +219,7 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #109ddf;
-    color: set-color-text(#109ddf); }
+    color: #000; }
 
 .btn-dark {
   background: black;
@@ -297,6 +297,12 @@ body::-webkit-scrollbar-thumb {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 3.2rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1rem;
+    border: 2px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 2rem;
+    transition: all 0.5s ease-out; } }
